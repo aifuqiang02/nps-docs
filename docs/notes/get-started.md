@@ -1,11 +1,9 @@
 ---
-title: get-started
+title: 快速开始
 createTime: 2025/06/24 22:36:06
 permalink: /article/s48xvtrl/
 ---
 # 快速开始
-
-让远程访问变得前所未有的简单与高效。
 
 只需几个简单步骤，即可在几分钟内完成配置，轻松实现本地服务对外暴露！
 

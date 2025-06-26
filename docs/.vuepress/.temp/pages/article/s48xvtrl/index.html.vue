@@ -1,5 +1,4 @@
-<template><div><p>让远程访问变得前所未有的简单与高效。</p>
-<p>只需几个简单步骤，即可在几分钟内完成配置，轻松实现本地服务对外暴露！</p>
+<template><div><p>只需几个简单步骤，即可在几分钟内完成配置，轻松实现本地服务对外暴露！</p>
 <h2 id="下载安装" tabindex="-1"><a class="header-anchor" href="#下载安装"><span>下载安装</span></a></h2>
 <p>我们提供图形化客户端，界面简洁直观，操作便捷，支持 Windows 系统一键安装。</p>
 <p>👉 <a href="http://nps.tx07.cn/updates/install.exe" target="_blank" rel="noopener noreferrer">Windows 版本下载</a></p>
