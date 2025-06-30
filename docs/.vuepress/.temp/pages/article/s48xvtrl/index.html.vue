@@ -37,6 +37,43 @@
 <li>获取公网地址和端口；</li>
 <li>使用远程桌面工具输入公网地址和端口即可连接。</li>
 </ol>
+<p>常见无法连接的解决方法：</p>
+<h3 id="_1-检查-windows-远程桌面设置" tabindex="-1"><a class="header-anchor" href="#_1-检查-windows-远程桌面设置"><span>1. 检查 Windows 远程桌面设置</span></a></h3>
+<ul>
+<li><strong>启用远程桌面</strong>：右键&quot;此电脑&quot; → 属性 → 高级系统设置 → 远程 → 勾选&quot;启用远程桌面&quot;</li>
+<li><strong>用户权限</strong>：确保用户账户有远程登录权限，建议设置密码</li>
+<li><strong>网络级别身份验证</strong>：可尝试取消勾选&quot;仅允许运行使用网络级别身份验证的远程桌面的计算机连接&quot;</li>
+</ul>
+<h3 id="_2-防火墙配置" tabindex="-1"><a class="header-anchor" href="#_2-防火墙配置"><span>2. 防火墙配置</span></a></h3>
+<ul>
+<li><strong>Windows 防火墙</strong>：确保允许&quot;远程桌面&quot;通过防火墙</li>
+<li><strong>第三方防火墙</strong>：检查是否阻止了 3389 端口</li>
+<li><strong>路由器防火墙</strong>：确认路由器未阻止相关端口</li>
+</ul>
+<h3 id="_3-网络连接问题" tabindex="-1"><a class="header-anchor" href="#_3-网络连接问题"><span>3. 网络连接问题</span></a></h3>
+<ul>
+<li><strong>端口监听检查</strong>：使用命令 <code v-pre>netstat -an | findstr :3389</code> 检查本地 3389 端口是否有远程桌面服务监听</li>
+<li><strong>本地测试</strong>：先在局域网内测试 <code v-pre>127.0.0.1:3389</code> 是否可连接</li>
+<li><strong>映射状态</strong>：确认 NPS 映射状态为&quot;在线&quot;</li>
+<li><strong>端口冲突</strong>：检查 3389 端口是否被其他程序占用</li>
+</ul>
+<h3 id="_4-系统服务检查" tabindex="-1"><a class="header-anchor" href="#_4-系统服务检查"><span>4. 系统服务检查</span></a></h3>
+<ul>
+<li><strong>远程桌面服务</strong>：确保以下服务正在运行：
+<ul>
+<li>Remote Desktop Services (TermService)</li>
+<li>Remote Desktop Configuration (SessionEnv)</li>
+</ul>
+</li>
+<li><strong>服务启动</strong>：Win+R → <code v-pre>services.msc</code> → 找到相关服务并启动</li>
+</ul>
+<h3 id="_5-常见错误解决" tabindex="-1"><a class="header-anchor" href="#_5-常见错误解决"><span>5. 常见错误解决</span></a></h3>
+<ul>
+<li><strong>&quot;计算机无法连接到远程计算机&quot;</strong>：检查映射配置和网络连通性</li>
+<li><strong>&quot;身份验证错误&quot;</strong>：尝试使用本地账户而非 Microsoft 账户</li>
+<li><strong>&quot;连接被拒绝&quot;</strong>：确认目标计算机的远程桌面服务已启动</li>
+<li><strong>&quot;超时&quot;</strong>：检查网络延迟，可能需要调整连接超时设置</li>
+</ul>
 <hr>
 <h2 id="充值" tabindex="-1"><a class="header-anchor" href="#充值"><span>充值</span></a></h2>
 <p>我们的服务采用 <strong>按量计费</strong> 模式，每 GB 流量仅需 <strong>0.8 元</strong>，无任何隐藏费用。</p>
