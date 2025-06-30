@@ -3,7 +3,6 @@
 <p>我们提供图形化客户端，界面简洁直观，操作便捷，支持 Windows 系统一键安装。</p>
 <p>👉 <a href="https://nps.tx07.cn/updates/install.exe" target="_blank" rel="noopener noreferrer">Windows 版本下载</a></p>
 <p>安装完成后，打开客户端，使用微信扫码二维码登录，即可开始创建映射映射。</p>
-<hr>
 <h2 id="网站映射-https" tabindex="-1"><a class="header-anchor" href="#网站映射-https"><span>网站映射（HTTPS）</span></a></h2>
 <p>将本地 Web 服务（如博客、开发环境、测试站点）映射到公网非常简单：</p>
 <ol>
@@ -16,7 +15,6 @@
 <blockquote>
 <p>💡 外网访问地址，将自动生成</p>
 </blockquote>
-<hr>
 <h2 id="mysql-映射" tabindex="-1"><a class="header-anchor" href="#mysql-映射"><span>MySQL 映射</span></a></h2>
 <p>将本地数据库开放给外部应用连接，操作步骤如下：</p>
 <ol>
@@ -28,7 +26,6 @@
 <blockquote>
 <p>⚠️ 请确保做好访问控制，避免未授权访问。</p>
 </blockquote>
-<hr>
 <h2 id="windows-远程访问映射" tabindex="-1"><a class="header-anchor" href="#windows-远程访问映射"><span>Windows 远程访问映射</span></a></h2>
 <p>想要远程桌面连接家里的电脑？只需几步：</p>
 <ol>
@@ -74,7 +71,6 @@
 <li><strong>&quot;连接被拒绝&quot;</strong>：确认目标计算机的远程桌面服务已启动</li>
 <li><strong>&quot;超时&quot;</strong>：检查网络延迟，可能需要调整连接超时设置</li>
 </ul>
-<hr>
 <h2 id="充值" tabindex="-1"><a class="header-anchor" href="#充值"><span>充值</span></a></h2>
 <p>我们的服务采用 <strong>按量计费</strong> 模式，每 GB 流量仅需 <strong>0.8 元</strong>，无任何隐藏费用。</p>
 <p>充值后即可开启无限穿透之旅，适用于任意数量的映射与带宽！</p>
