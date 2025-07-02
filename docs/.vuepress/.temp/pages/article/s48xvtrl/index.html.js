@@ -1,16 +1,3 @@
 import comp from "D:/git-projects/nps-new/nps-docs/docs/.vuepress/.temp/pages/article/s48xvtrl/index.html.vue"
-const data = JSON.parse("{\"path\":\"/article/s48xvtrl/\",\"title\":\"快速开始\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"快速开始\",\"createTime\":\"2025/06/24 22:36:06\",\"permalink\":\"/article/s48xvtrl/\"},\"readingTime\":{\"minutes\":2.88,\"words\":865},\"git\":{},\"filePathRelative\":\"notes/get-started.md\",\"headers\":[],\"categoryList\":[{\"id\":\"4358b5\",\"sort\":10000,\"name\":\"notes\"}]}")
+const data = JSON.parse("{\"path\":\"/article/s48xvtrl/\",\"title\":\"快速开始\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"快速开始\",\"createTime\":\"2025/06/24 22:36:06\",\"permalink\":\"/article/s48xvtrl/\",\"description\":\"只需几个简单步骤，即可在几分钟内完成配置，轻松实现本地服务对外暴露！ 下载安装 我们提供图形化客户端，界面简洁直观，操作便捷，支持 Windows 系统一键安装。 👉 Windows 版本下载 安装完成后，打开客户端，使用微信扫码二维码登录，即可开始创建映射映射。 网站映射（HTTPS） 将本地 Web 服务（如博客、开发环境、测试站点）映射到公网非...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"快速开始\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2025-06-30T15:48:33.000Z\\\",\\\"author\\\":[]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://nps.tx07.cn/docs/docs/article/s48xvtrl/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"网跃通\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"快速开始\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"只需几个简单步骤，即可在几分钟内完成配置，轻松实现本地服务对外暴露！ 下载安装 我们提供图形化客户端，界面简洁直观，操作便捷，支持 Windows 系统一键安装。 👉 Windows 版本下载 安装完成后，打开客户端，使用微信扫码二维码登录，即可开始创建映射映射。 网站映射（HTTPS） 将本地 Web 服务（如博客、开发环境、测试站点）映射到公网非...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2025-06-30T15:48:33.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2025-06-30T15:48:33.000Z\"}]]},\"readingTime\":{\"minutes\":2.88,\"words\":865},\"git\":{\"createdTime\":1750949743000,\"updatedTime\":1751298513000,\"contributors\":[{\"name\":\"aifuqiang\",\"username\":\"aifuqiang\",\"email\":\"635104032@qq.com\",\"commits\":6,\"avatar\":\"https://avatars.githubusercontent.com/aifuqiang?v=4\",\"url\":\"https://github.com/aifuqiang\"}]},\"autoDesc\":true,\"filePathRelative\":\"notes/get-started.md\",\"headers\":[],\"categoryList\":[{\"id\":\"4358b5\",\"sort\":10000,\"name\":\"notes\"}]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
